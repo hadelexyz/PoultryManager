@@ -71,10 +71,10 @@ namespace PoultryManager
             this.panel12 = new System.Windows.Forms.Panel();
             this.btnHomeFeed = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.sales1 = new PoultryManager.Sales();
-            this.feeding1 = new PoultryManager.dailyFeeding();
             this.expenses1 = new PoultryManager.Expenses();
             this.egg_Collection1 = new PoultryManager.Egg_Collection();
+            this.sales1 = new PoultryManager.Sales();
+            this.feeding1 = new PoultryManager.dailyFeeding();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.Homepage.SuspendLayout();
@@ -131,7 +131,7 @@ namespace PoultryManager
             this.btnReport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.btnReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReport.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReport.ForeColor = System.Drawing.Color.Transparent;
             this.btnReport.Location = new System.Drawing.Point(-2, 369);
             this.btnReport.Name = "btnReport";
@@ -146,7 +146,7 @@ namespace PoultryManager
             this.btnExpense.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.btnExpense.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.btnExpense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExpense.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExpense.ForeColor = System.Drawing.Color.Transparent;
             this.btnExpense.Location = new System.Drawing.Point(-2, 414);
             this.btnExpense.Name = "btnExpense";
@@ -162,7 +162,7 @@ namespace PoultryManager
             this.btnSales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.btnSales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSales.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSales.ForeColor = System.Drawing.Color.Transparent;
             this.btnSales.Location = new System.Drawing.Point(3, 324);
             this.btnSales.Name = "btnSales";
@@ -178,7 +178,7 @@ namespace PoultryManager
             this.btnEggColl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.btnEggColl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.btnEggColl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEggColl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEggColl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEggColl.ForeColor = System.Drawing.Color.Transparent;
             this.btnEggColl.Location = new System.Drawing.Point(3, 279);
             this.btnEggColl.Name = "btnEggColl";
@@ -194,13 +194,13 @@ namespace PoultryManager
             this.btnFeeding.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.btnFeeding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.btnFeeding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeeding.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFeeding.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFeeding.ForeColor = System.Drawing.Color.Transparent;
             this.btnFeeding.Location = new System.Drawing.Point(3, 234);
             this.btnFeeding.Name = "btnFeeding";
             this.btnFeeding.Size = new System.Drawing.Size(165, 39);
             this.btnFeeding.TabIndex = 1;
-            this.btnFeeding.Text = "Daily Feeding";
+            this.btnFeeding.Text = "Daily Feedings";
             this.btnFeeding.UseVisualStyleBackColor = true;
             this.btnFeeding.Click += new System.EventHandler(this.btnFeeding_Click);
             // 
@@ -210,7 +210,7 @@ namespace PoultryManager
             this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.Transparent;
             this.btnHome.Location = new System.Drawing.Point(0, 185);
             this.btnHome.Name = "btnHome";
@@ -259,7 +259,7 @@ namespace PoultryManager
             this.btnHomepageReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomepageReport.FlatAppearance.BorderSize = 0;
             this.btnHomepageReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomepageReport.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomepageReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomepageReport.ForeColor = System.Drawing.Color.White;
             this.btnHomepageReport.Location = new System.Drawing.Point(25, 120);
             this.btnHomepageReport.Name = "btnHomepageReport";
@@ -292,7 +292,7 @@ namespace PoultryManager
             this.btnHomepageSales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomepageSales.FlatAppearance.BorderSize = 0;
             this.btnHomepageSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomepageSales.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomepageSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomepageSales.ForeColor = System.Drawing.Color.White;
             this.btnHomepageSales.Location = new System.Drawing.Point(25, 120);
             this.btnHomepageSales.Name = "btnHomepageSales";
@@ -325,7 +325,7 @@ namespace PoultryManager
             this.btnHomepageEgg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomepageEgg.FlatAppearance.BorderSize = 0;
             this.btnHomepageEgg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomepageEgg.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomepageEgg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomepageEgg.ForeColor = System.Drawing.Color.White;
             this.btnHomepageEgg.Location = new System.Drawing.Point(9, 120);
             this.btnHomepageEgg.Name = "btnHomepageEgg";
@@ -358,7 +358,7 @@ namespace PoultryManager
             this.btnHomepageFeed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomepageFeed.FlatAppearance.BorderSize = 0;
             this.btnHomepageFeed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomepageFeed.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomepageFeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomepageFeed.ForeColor = System.Drawing.Color.White;
             this.btnHomepageFeed.Location = new System.Drawing.Point(25, 120);
             this.btnHomepageFeed.Name = "btnHomepageFeed";
@@ -380,11 +380,11 @@ namespace PoultryManager
             // 
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(19, 102);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 38);
+            this.label1.Size = new System.Drawing.Size(94, 40);
             this.label1.TabIndex = 10;
             this.label1.Text = "Poultry\r\n   Manager\r\n";
             // 
@@ -412,11 +412,11 @@ namespace PoultryManager
             // 
             this.lbltitle.AutoSize = true;
             this.lbltitle.BackColor = System.Drawing.Color.Transparent;
-            this.lbltitle.Font = new System.Drawing.Font("Berlin Sans FB Demi", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitle.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.lbltitle.Location = new System.Drawing.Point(82, 15);
             this.lbltitle.Name = "lbltitle";
-            this.lbltitle.Size = new System.Drawing.Size(378, 27);
+            this.lbltitle.Size = new System.Drawing.Size(436, 29);
             this.lbltitle.TabIndex = 11;
             this.lbltitle.Text = "POULTRY MANAGEMENT SYSTEM";
             // 
@@ -443,7 +443,6 @@ namespace PoultryManager
             // 
             // groupBox1
             // 
-            
             this.groupBox1.Controls.Add(this.panel9);
             this.groupBox1.Controls.Add(this.panel10);
             this.groupBox1.Controls.Add(this.panel11);
@@ -474,7 +473,7 @@ namespace PoultryManager
             this.btnHomeReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomeReport.FlatAppearance.BorderSize = 0;
             this.btnHomeReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomeReport.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomeReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomeReport.ForeColor = System.Drawing.Color.White;
             this.btnHomeReport.Location = new System.Drawing.Point(25, 120);
             this.btnHomeReport.Name = "btnHomeReport";
@@ -509,7 +508,7 @@ namespace PoultryManager
             this.btnHomeSales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomeSales.FlatAppearance.BorderSize = 0;
             this.btnHomeSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomeSales.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomeSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomeSales.ForeColor = System.Drawing.Color.White;
             this.btnHomeSales.Location = new System.Drawing.Point(25, 120);
             this.btnHomeSales.Name = "btnHomeSales";
@@ -544,7 +543,7 @@ namespace PoultryManager
             this.btnHomeEgg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomeEgg.FlatAppearance.BorderSize = 0;
             this.btnHomeEgg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomeEgg.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomeEgg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomeEgg.ForeColor = System.Drawing.Color.White;
             this.btnHomeEgg.Location = new System.Drawing.Point(9, 120);
             this.btnHomeEgg.Name = "btnHomeEgg";
@@ -579,7 +578,7 @@ namespace PoultryManager
             this.btnHomeFeed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
             this.btnHomeFeed.FlatAppearance.BorderSize = 0;
             this.btnHomeFeed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHomeFeed.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomeFeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomeFeed.ForeColor = System.Drawing.Color.White;
             this.btnHomeFeed.Location = new System.Drawing.Point(25, 120);
             this.btnHomeFeed.Name = "btnHomeFeed";
@@ -599,20 +598,6 @@ namespace PoultryManager
             this.pictureBox9.TabIndex = 1;
             this.pictureBox9.TabStop = false;
             // 
-            // sales1
-            // 
-            this.sales1.Location = new System.Drawing.Point(0, 8);
-            this.sales1.Name = "sales1";
-            this.sales1.Size = new System.Drawing.Size(660, 407);
-            this.sales1.TabIndex = 8;
-            // 
-            // feeding1
-            // 
-            this.feeding1.Location = new System.Drawing.Point(-1, 8);
-            this.feeding1.Name = "feeding1";
-            this.feeding1.Size = new System.Drawing.Size(661, 404);
-            this.feeding1.TabIndex = 7;
-            // 
             // expenses1
             // 
             this.expenses1.Location = new System.Drawing.Point(-1, 8);
@@ -626,6 +611,20 @@ namespace PoultryManager
             this.egg_Collection1.Name = "egg_Collection1";
             this.egg_Collection1.Size = new System.Drawing.Size(661, 404);
             this.egg_Collection1.TabIndex = 5;
+            // 
+            // sales1
+            // 
+            this.sales1.Location = new System.Drawing.Point(0, 8);
+            this.sales1.Name = "sales1";
+            this.sales1.Size = new System.Drawing.Size(660, 407);
+            this.sales1.TabIndex = 8;
+            // 
+            // feeding1
+            // 
+            this.feeding1.Location = new System.Drawing.Point(-1, 8);
+            this.feeding1.Name = "feeding1";
+            this.feeding1.Size = new System.Drawing.Size(661, 404);
+            this.feeding1.TabIndex = 7;
             // 
             // Home
             // 
