@@ -200,7 +200,7 @@ namespace PoultryManager
             this.btnFeeding.Name = "btnFeeding";
             this.btnFeeding.Size = new System.Drawing.Size(165, 39);
             this.btnFeeding.TabIndex = 1;
-            this.btnFeeding.Text = "Daily Feedings";
+            this.btnFeeding.Text = "Daily Feeding";
             this.btnFeeding.UseVisualStyleBackColor = true;
             this.btnFeeding.Click += new System.EventHandler(this.btnFeeding_Click);
             // 
