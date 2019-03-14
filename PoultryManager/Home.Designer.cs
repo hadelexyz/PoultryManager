@@ -75,6 +75,7 @@ namespace PoultryManager
             this.egg_Collection1 = new PoultryManager.Egg_Collection();
             this.sales1 = new PoultryManager.Sales();
             this.feeding1 = new PoultryManager.dailyFeeding();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.Homepage.SuspendLayout();
@@ -433,6 +434,7 @@ namespace PoultryManager
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.lbltitle);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -626,6 +628,17 @@ namespace PoultryManager
             this.feeding1.Size = new System.Drawing.Size(661, 404);
             this.feeding1.TabIndex = 7;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(645, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(12, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "x";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -715,5 +728,6 @@ namespace PoultryManager
         private Sales sales1;
         private dailyFeeding feeding1;
         private Expenses expenses1;
+        private System.Windows.Forms.Label label3;
     }
 }

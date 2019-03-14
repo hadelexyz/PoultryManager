@@ -99,5 +99,10 @@ namespace PoultryManager
             sidePanel.Height = btnSales.Height;
             sidePanel.Top = btnSales.Top;
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
