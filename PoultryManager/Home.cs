@@ -16,7 +16,7 @@ namespace PoultryManager
         public Home()
         {
             InitializeComponent();
-            label2.Text = DateTime.Now.DayOfWeek + "," + DateTime.Now.ToLongDateString();
+            label2.Text = DateTime.Now.ToLongDateString();
             sidePanel.Height = btnHome.Height;
             sidePanel.Top = btnHome.Top;
         }

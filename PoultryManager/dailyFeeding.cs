@@ -88,88 +88,94 @@ namespace PoultryManager
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (btnSave.Text == "Save")
+            switch (btnSave.Text)
             {
-                try
-                {
-
-                    if (tbQuantity.Text == "" || tbFeedUsed.Text == "")
+                case "Save":
                     {
-                        if (tbQuantity.Text == "")
+                        try
                         {
-                            tbQuantity.Focus();
+
+                            if (tbQuantity.Text == "" || tbFeedUsed.Text == "")
+                            {
+                                if (tbQuantity.Text == "")
+                                {
+                                    tbQuantity.Focus();
+                                }
+                                else
+                                {
+                                    tbFeedUsed.Focus();
+                                }
+                                MessageBox.Show("Field cant be empty");
+
+                            }
+                            else
+                            {
+                                using (PoultryEntities db = new PoultryEntities())
+                                {
+
+                                    Feeding feeding = new Feeding();
+                                    feeding.Date = Convert.ToDateTime(DateLabel.Text);
+                                    feeding.FeedName = tbFeedUsed.Text;
+                                    feeding.Quantity = Convert.ToInt32(tbQuantity.Text);
+                                    feeding.Weight = Convert.ToDouble(tbWeight.Text);
+                                    feeding.Comment = tbComment.Text;
+
+                                    db.Feedings.Add(feeding);
+                                    db.SaveChanges();
+
+                                    MessageBox.Show(" Feeeding details Succesful done");
+
+                                }
+
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("check input data");
+                        }
+
+                        break;
+                    }
+
+                default:
+                    {
+                        if (tbQuantity.Text == "" || tbFeedUsed.Text == "")
+                        {
+                            if (tbQuantity.Text == "")
+                            {
+                                tbQuantity.Focus();
+                            }
+                            else
+                            {
+                                tbFeedUsed.Focus();
+                            }
+                            MessageBox.Show("Field cant be empty");
+
                         }
                         else
                         {
-                            tbFeedUsed.Focus();
+                            using (PoultryEntities db = new PoultryEntities())
+                            {
+
+                                Feeding feeding = new Feeding();
+                                DateTime dateTime = Convert.ToDateTime(DateLabel.Text);
+                                feeding = db.Feedings.Where(x => x.Date == dateTime).FirstOrDefault();
+                                //feeding.Date = Convert.ToDateTime(DateLabel.Text);
+                                feeding.FeedName = tbFeedUsed.Text;
+                                feeding.Quantity = Convert.ToInt32(tbQuantity.Text);
+                                feeding.Weight = Convert.ToDouble(tbWeight.Text);
+                                feeding.Comment = tbComment.Text;
+
+
+                                db.SaveChanges();
+
+                                MessageBox.Show(" Feeeding details Succesful Updated done");
+
+
+                            }
                         }
-                        MessageBox.Show("Field cant be empty");
-
+                        break;
                     }
-                    else
-                    {
-                        using (PoultryEntities db = new PoultryEntities())
-                        {
-
-                            Feeding feeding = new Feeding();
-                            feeding.Date = Convert.ToDateTime(DateLabel.Text);
-                            feeding.FeedName = tbFeedUsed.Text;
-                            feeding.Quantity = Convert.ToInt32(tbQuantity.Text);
-                            feeding.Weight = Convert.ToDouble(tbWeight.Text);
-                            feeding.Comment = tbComment.Text;
-
-                            db.Feedings.Add(feeding);
-                            db.SaveChanges();
-
-                            MessageBox.Show(" Feeeding details Succesful done");
-
-                        }
-
-                    }
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("check input data");
-                }
-            }
-            else
-            {
-                if (tbQuantity.Text == "" || tbFeedUsed.Text == "")
-                {
-                    if (tbQuantity.Text == "")
-                    {
-                        tbQuantity.Focus();
-                    }
-                    else
-                    {
-                        tbFeedUsed.Focus();
-                    }
-                    MessageBox.Show("Field cant be empty");
-
-                }
-                else
-                {
-                    using (PoultryEntities db = new PoultryEntities())
-                    {
-
-                        Feeding feeding = new Feeding();
-                        DateTime dateTime = Convert.ToDateTime(DateLabel.Text);
-                        feeding = db.Feedings.Where(x => x.Date == dateTime).FirstOrDefault();
-                        //feeding.Date = Convert.ToDateTime(DateLabel.Text);
-                        feeding.FeedName = tbFeedUsed.Text;
-                        feeding.Quantity = Convert.ToInt32(tbQuantity.Text);
-                        feeding.Weight = Convert.ToDouble(tbWeight.Text);
-                        feeding.Comment = tbComment.Text;
-
-
-                        db.SaveChanges();
-
-                        MessageBox.Show(" Feeeding details Succesful Updated done");
-
-
-                    }
-
-                }
             }
         }
 
@@ -265,5 +271,7 @@ namespace PoultryManager
 
 
         }
+
+      
     }
 }
