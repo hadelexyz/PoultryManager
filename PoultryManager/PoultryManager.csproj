@@ -219,6 +219,7 @@
       <LastGenOutput>PoultryModel.Context.cs</LastGenOutput>
       <DependentUpon>PoultryModel.edmx</DependentUpon>
     </Content>
+    <Content Include="PoultryModel.edmx.sql" />
     <Content Include="PoultryModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>PoultryModel.edmx</DependentUpon>

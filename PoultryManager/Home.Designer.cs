@@ -58,6 +58,7 @@ namespace PoultryManager
             this.lbltitle = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnHomeReport = new System.Windows.Forms.Button();
@@ -75,7 +76,6 @@ namespace PoultryManager
             this.egg_Collection1 = new PoultryManager.Egg_Collection();
             this.sales1 = new PoultryManager.Sales();
             this.feeding1 = new PoultryManager.dailyFeeding();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.Homepage.SuspendLayout();
@@ -443,16 +443,27 @@ namespace PoultryManager
             this.panel5.Size = new System.Drawing.Size(660, 60);
             this.panel5.TabIndex = 8;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(645, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(12, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "x";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.panel9);
             this.groupBox1.Controls.Add(this.panel10);
             this.groupBox1.Controls.Add(this.panel11);
             this.groupBox1.Controls.Add(this.panel12);
-            this.groupBox1.Controls.Add(this.expenses1);
-            this.groupBox1.Controls.Add(this.egg_Collection1);
             this.groupBox1.Controls.Add(this.sales1);
             this.groupBox1.Controls.Add(this.feeding1);
+            this.groupBox1.Controls.Add(this.expenses1);
+            this.groupBox1.Controls.Add(this.egg_Collection1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(168, 79);
             this.groupBox1.Name = "groupBox1";
@@ -627,17 +638,6 @@ namespace PoultryManager
             this.feeding1.Name = "feeding1";
             this.feeding1.Size = new System.Drawing.Size(661, 404);
             this.feeding1.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(645, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(12, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "x";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Home
             // 

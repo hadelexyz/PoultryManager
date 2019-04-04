@@ -16,7 +16,7 @@ namespace PoultryManager
     public partial class PoultryEntities : DbContext
     {
         public PoultryEntities()
-            : base("name = PoultryEntities")
+            : base("name=PoultryEntities")
         {
         }
     
